@@ -1,6 +1,6 @@
 {
   "name": "f2-svg-engine",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "f2 svg 渲染引擎",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",

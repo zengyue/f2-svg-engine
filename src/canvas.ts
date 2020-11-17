@@ -1,5 +1,6 @@
 import { Canvas as GCavans } from '@antv/g-svg';
 import Shape from './shape';
+import Group from './group';
 
 class Canvas extends GCavans {
   constructor(cfg) {
@@ -14,7 +15,7 @@ class Canvas extends GCavans {
   }
   // @ts-ignore
   getGroupBase() {
-    return Canvas;
+    return Group;
   }
 }
 
