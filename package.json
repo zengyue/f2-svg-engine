@@ -1,0 +1,28 @@
+{
+  "name": "f2-svg-engine",
+  "version": "0.0.1",
+  "description": "f2 svg 渲染引擎",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "father build",
+    "test": "father test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zengyue/f2-svg-engine.git"
+  },
+  "author": "yezengyue@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zengyue/f2-svg-engine/issues"
+  },
+  "homepage": "https://github.com/zengyue/f2-svg-engine#readme",
+  "dependencies": {
+    "@antv/g-svg": "~0.5.2"
+  },
+  "devDependencies": {
+    "father": "^2.29.11"
+  }
+}
